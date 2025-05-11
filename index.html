@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DANZZ JAVASCRIPT</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f1f1f1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .time-display {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .button-group button {
+      margin: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #1f1f1f;
+      color: #fff;
+      border: 1px solid #444;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .button-group button:hover {
+      background-color: #333;
+    }
+    .audio-player {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .search-section {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .search-section input {
+      padding: 0.5rem;
+      width: 60%;
+      border: 1px solid #444;
+      border-radius: 5px;
+      background-color: #1f1f1f;
+      color: #fff;
+    }
+    .code-section {
+      background-color: #1e1e1e;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .code-button {
+      margin-bottom: 1rem;
+    }
+    .code-entry {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #444;
+    }
+    .code-label {
+      font-weight: bold;
+      color: #00ffff;
+    }
+    .get-button {
+      padding: 0.3rem 0.8rem;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .get-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>DANZZ JAVASCRIPT</h1>
+
+  <div class="section time-display">
+    <p>12:00:13</p>
+  </div>
+
+  <div class="section button-group">
+    <button>Description</button>
+    <button>Owner</button>
+  </div>
+
+  <div class="section audio-player">
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>0:36 / 0:36</p>
+  </div>
+
+  <div class="section search-section">
+    <input type="text" placeholder="cari nama fitur...">
+  </div>
+
+  <div class="section code-section">
+    <div class="code-button">
+      <button>Code</button>
+    </div>
+    <div class="code-entry">
+      <span class="code-label">SETTPPANJANG</span>
+      <button class="get-button">Get</button>
+    </div>
+    <div class="code-entry">
+      <span class="code-label">test 1</span>
+      <button class="get-button">Get</button>
+    </div>
+    <div class="code-entry">
+      <span class="code-label">test 2</span>
+      <button class="get-button">Get</button>
+    </div>
+  </div>
+</body>
+</html>
